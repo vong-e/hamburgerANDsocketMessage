@@ -1,24 +1,16 @@
 /*
-[±âÃÊÇÁ·ÎÁ§Æ®I]
-ÇÁ·ÎÁ§Æ®ÀÌ¸§ : [ÆÀ ÇÁ·ÎÁ§Æ® 2 ] ½ºÅÃ, ¼ÒÄÏ Åë½ÅÀ» È°¿ëÇÑ ÇÜ¹ö°Å ¸¸µé±â °ÔÀÓ+Ã¤ÆÃ ÇÁ·Î±×·¥
-¼³¸í : ½ºÅÃ, ¼ÒÄÏ Åë½ÅÀ» È°¿ëÇØ¼­ ÇÜ¹ö°Å ¸¸µé±â °ÔÀÓ°ú Ã¤ÆÃ ÇÁ·Î±×·¥ µÎ°³°¡ µ¿½Ã¿¡ °¡´ÉÇÑ ÇÁ·Î±×·¥À» ¸¸µç´Ù.
-ÇÁ·Î±×·¥ ½ÇÇà½Ã À¯Àú´Â ÇÜ¹ö°Å ¸¸µé±â °ÔÀÓ, Ã¤ÆÃ ÇÁ·Î±×·¥ Áß ¿øÇÏ´Â ÇÁ·Î±×·¥À» ¼±ÅÃÇÒ ¼ö ÀÖÀ¸¸ç
-ÇÁ·Î±×·¥ ½ÇÇà µµÁß¿¡ ´Ù¸¥ ÇÁ·Î±×·¥À¸·Î ÀüÈ¯ÀÌ °¡´ÉÇÏ´Ù.
+ìŠ¤íƒ, ì†Œì¼“ í†µì‹ ì„ í™œìš©í•œ í–„ë²„ê±° ë§Œë“¤ê¸° ê²Œì„+ì±„íŒ… í”„ë¡œê·¸ë¨
+ì„¤ëª… : ìŠ¤íƒ, ì†Œì¼“ í†µì‹ ì„ í™œìš©í•´ì„œ í–„ë²„ê±° ë§Œë“¤ê¸° ê²Œì„ê³¼ ì±„íŒ… í”„ë¡œê·¸ë¨ ë‘ê°œê°€ ë™ì‹œì— ê°€ëŠ¥í•œ í”„ë¡œê·¸ë¨ì„ ë§Œë“ ë‹¤.
+í”„ë¡œê·¸ë¨ ì‹¤í–‰ì‹œ ìœ ì €ëŠ” í–„ë²„ê±° ë§Œë“¤ê¸° ê²Œì„, ì±„íŒ… í”„ë¡œê·¸ë¨ ì¤‘ ì›í•˜ëŠ” í”„ë¡œê·¸ë¨ì„ ì„ íƒí•  ìˆ˜ ìˆìœ¼ë©°
+í”„ë¡œê·¸ë¨ ì‹¤í–‰ ë„ì¤‘ì— ë‹¤ë¥¸ í”„ë¡œê·¸ë¨ìœ¼ë¡œ ì „í™˜ì´ ê°€ëŠ¥í•˜ë‹¤.
 
-°³¹ß ½ÃÀÛÀÏÀÚ : 2017.06. 02 (±İ)
-°³¹ß ¿Ï·áÀÏÀÚ : 2017.06, 20 (È­)
-°³¹ßÀÚ / ÇĞ¹ø : ±è¼ÛºÀ / 2013244128 , À±»ó±Ù / 2013244036
+ê°œë°œ ì‹œì‘ì¼ì : 2017.06. 02 (ê¸ˆ)
+ê°œë°œ ì™„ë£Œì¼ì : 2017.06, 20 (í™”)
 
-[°³¹ß ºÎºĞ]
-¼ÒÄÏ Åë½Å ºÎºĞ : http://remocon33.tistory.com/465 Âü°í
-ÇÜ¹ö°Å ½ºÅÃ ÇÁ·Î±×·¥ : ±è¼ÛºÀ
-¸Ş´º »óÈ£ÀÛ¿ë, ÀÎÅÍÆäÀÌ½º : ±è¼ÛºÀ
+[ì°¸ê³  ì‚¬í•­]
+ì†Œì¼“ í†µì‹  ë¶€ë¶„ : http://remocon33.tistory.com/465 ì°¸ê³ 
 
-ÇÜ¹ö°Å Á¤´ä ºñ±³( calculator() ) ÇÁ·Î±×·¥ : À±»ó±Ù
-½ºÄÚ¾î ÇÁ·Î±×·¥ : À±»ó±Ù
-
-
-** ÇÁ·Î±×·¥ ÀÛµ¿ÀÌ ¾ÈµÉ½Ã : ÇÁ·ÎÁ§Æ® ¼Ó¼º -> ¸µÄ¿  -> ÀÔ·Â   -> Ãâ·ÂÆÄÀÏ  ->   wsock32.lib; ¶óÀÌºê·¯¸® Ãß°¡
+** í”„ë¡œê·¸ë¨ ì‘ë™ì´ ì•ˆë ì‹œ : í”„ë¡œì íŠ¸ ì†ì„± -> ë§ì»¤  -> ì…ë ¥   -> ì¶œë ¥íŒŒì¼  ->   wsock32.lib; ë¼ì´ë¸ŒëŸ¬ë¦¬ ì¶”ê°€
 */
 
 
@@ -32,13 +24,13 @@
 #define BUF_SIZE 100
 #define MAX_CLNT 256
 
-unsigned WINAPI HandleClient(void* arg);//¾²·¹µå ÇÔ¼ö
-void SendMsg(char* msg, int len);//¸Ş½ÃÁö º¸³»´Â ÇÔ¼ö
+unsigned WINAPI HandleClient(void* arg);//ì“°ë ˆë“œ í•¨ìˆ˜
+void SendMsg(char* msg, int len);//ë©”ì‹œì§€ ë³´ë‚´ëŠ” í•¨ìˆ˜
 void ErrorHandling(char* msg);
 
 int clientCount = 0;
-SOCKET clientSocks[MAX_CLNT];//Å¬¶óÀÌ¾ğÆ® ¼ÒÄÏ º¸°ü¿ë ¹è¿­
-HANDLE hMutex;//¹ÂÅØ½º
+SOCKET clientSocks[MAX_CLNT];//í´ë¼ì´ì–¸íŠ¸ ì†Œì¼“ ë³´ê´€ìš© ë°°ì—´
+HANDLE hMutex;//ë®¤í…ìŠ¤
 
 int main() {
 	WSADATA wsaData;
@@ -48,77 +40,77 @@ int main() {
 	HANDLE hThread;
 
 	char port[100];
-	printf("¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬\n");
-	printf("Å¬¶óÀÌ¾ğÆ®°¡ Á¢¼ÓÇÒ port ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf("â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”\n");
+	printf("í´ë¼ì´ì–¸íŠ¸ê°€ ì ‘ì†í•  port ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 	gets(port);
 
-	if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0) //À©µµ¿ì ¼ÒÄÏÀ» »ç¿ëÇÏ°Ú´Ù´Â »ç½ÇÀ» ¿î¿µÃ¼Á¦¿¡ Àü´Ş
+	if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0) //ìœˆë„ìš° ì†Œì¼“ì„ ì‚¬ìš©í•˜ê² ë‹¤ëŠ” ì‚¬ì‹¤ì„ ìš´ì˜ì²´ì œì— ì „ë‹¬
 		ErrorHandling("WSAStartup() error!");
 
-	hMutex = CreateMutex(NULL, FALSE, NULL);//ÇÏ³ªÀÇ ¹ÂÅØ½º¸¦ »ı¼ºÇÑ´Ù.
-	serverSock = socket(PF_INET, SOCK_STREAM, 0); //ÇÏ³ªÀÇ ¼ÒÄÏÀ» »ı¼ºÇÑ´Ù.
+	hMutex = CreateMutex(NULL, FALSE, NULL);//í•˜ë‚˜ì˜ ë®¤í…ìŠ¤ë¥¼ ìƒì„±í•œë‹¤.
+	serverSock = socket(PF_INET, SOCK_STREAM, 0); //í•˜ë‚˜ì˜ ì†Œì¼“ì„ ìƒì„±í•œë‹¤.
 
 	memset(&serverAddr, 0, sizeof(serverAddr));
 	serverAddr.sin_family = AF_INET;
 	serverAddr.sin_addr.s_addr = htonl(INADDR_ANY);
 	serverAddr.sin_port = htons(atoi(port));
 
-	if (bind(serverSock, (SOCKADDR*)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR) //»ı¼ºÇÑ ¼ÒÄÏÀ» ¹èÄ¡ÇÑ´Ù.
+	if (bind(serverSock, (SOCKADDR*)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR) //ìƒì„±í•œ ì†Œì¼“ì„ ë°°ì¹˜í•œë‹¤.
 		ErrorHandling("bind() error");
-	if (listen(serverSock, 5) == SOCKET_ERROR)//¼ÒÄÏÀ» ÁØºñ»óÅÂ¿¡ µĞ´Ù.
+	if (listen(serverSock, 5) == SOCKET_ERROR)//ì†Œì¼“ì„ ì¤€ë¹„ìƒíƒœì— ë‘”ë‹¤.
 		ErrorHandling("listen() error");
 
 	printf("listening...\n");
 
 	while (1) {
 		clientAddrSize = sizeof(clientAddr);
-		clientSock = accept(serverSock, (SOCKADDR*)&clientAddr, &clientAddrSize);//¼­¹ö¿¡°Ô Àü´ŞµÈ Å¬¶óÀÌ¾ğÆ® ¼ÒÄÏÀ» clientSock¿¡ Àü´Ş
-		WaitForSingleObject(hMutex, INFINITE);//¹ÂÅØ½º ½ÇÇà
-		clientSocks[clientCount++] = clientSock;//Å¬¶óÀÌ¾ğÆ® ¼ÒÄÏ¹è¿­¿¡ ¹æ±İ °¡Á®¿Â ¼ÒÄÏ ÁÖ¼Ò¸¦ Àü´Ş
-		ReleaseMutex(hMutex);//¹ÂÅØ½º ÁßÁö
-		hThread = (HANDLE)_beginthreadex(NULL, 0, HandleClient, (void*)&clientSock, 0, NULL);//HandleClient ¾²·¹µå ½ÇÇà, clientSockÀ» ¸Å°³º¯¼ö·Î Àü´Ş
-		printf("Á¢¼ÓÇÑ »ç¿ëÀÚÀÇ IP : %s\n", inet_ntoa(clientAddr.sin_addr));
+		clientSock = accept(serverSock, (SOCKADDR*)&clientAddr, &clientAddrSize);//ì„œë²„ì—ê²Œ ì „ë‹¬ëœ í´ë¼ì´ì–¸íŠ¸ ì†Œì¼“ì„ clientSockì— ì „ë‹¬
+		WaitForSingleObject(hMutex, INFINITE);//ë®¤í…ìŠ¤ ì‹¤í–‰
+		clientSocks[clientCount++] = clientSock;//í´ë¼ì´ì–¸íŠ¸ ì†Œì¼“ë°°ì—´ì— ë°©ê¸ˆ ê°€ì ¸ì˜¨ ì†Œì¼“ ì£¼ì†Œë¥¼ ì „ë‹¬
+		ReleaseMutex(hMutex);//ë®¤í…ìŠ¤ ì¤‘ì§€
+		hThread = (HANDLE)_beginthreadex(NULL, 0, HandleClient, (void*)&clientSock, 0, NULL);//HandleClient ì“°ë ˆë“œ ì‹¤í–‰, clientSockì„ ë§¤ê°œë³€ìˆ˜ë¡œ ì „ë‹¬
+		printf("ì ‘ì†í•œ ì‚¬ìš©ìì˜ IP : %s\n", inet_ntoa(clientAddr.sin_addr));
 	}
-	closesocket(serverSock);//»ı¼ºÇÑ ¼ÒÄÏÀ» ²ö´Ù.
-	WSACleanup();//À©µµ¿ì ¼ÒÄÏÀ» Á¾·áÇÏ°Ú´Ù´Â »ç½ÇÀ» ¿î¿µÃ¼Á¦¿¡ Àü´Ş
+	closesocket(serverSock);//ìƒì„±í•œ ì†Œì¼“ì„ ëˆë‹¤.
+	WSACleanup();//ìœˆë„ìš° ì†Œì¼“ì„ ì¢…ë£Œí•˜ê² ë‹¤ëŠ” ì‚¬ì‹¤ì„ ìš´ì˜ì²´ì œì— ì „ë‹¬
 	return 0;
 }
 
 unsigned WINAPI HandleClient(void* arg) {
-	SOCKET clientSock = *((SOCKET*)arg); //¸Å°³º¯¼ö·Î¹ŞÀº Å¬¶óÀÌ¾ğÆ® ¼ÒÄÏÀ» Àü´Ş
+	SOCKET clientSock = *((SOCKET*)arg); //ë§¤ê°œë³€ìˆ˜ë¡œë°›ì€ í´ë¼ì´ì–¸íŠ¸ ì†Œì¼“ì„ ì „ë‹¬
 	int strLen = 0, i;
 	char msg[BUF_SIZE];
 
-	while ((strLen = recv(clientSock, msg, sizeof(msg), 0)) != 0) { //Å¬¶óÀÌ¾ğÆ®·ÎºÎÅÍ ¸Ş½ÃÁö¸¦ ¹ŞÀ»¶§±îÁö ±â´Ù¸°´Ù.
+	while ((strLen = recv(clientSock, msg, sizeof(msg), 0)) != 0) { //í´ë¼ì´ì–¸íŠ¸ë¡œë¶€í„° ë©”ì‹œì§€ë¥¼ ë°›ì„ë•Œê¹Œì§€ ê¸°ë‹¤ë¦°ë‹¤.
 		if (!strcmp(msg, "X")) {
 			send(clientSock, "X", 1, 0);
 			break;
 		}
-		SendMsg(msg, strLen);//SendMsg¿¡ ¹ŞÀº ¸Ş½ÃÁö¸¦ Àü´ŞÇÑ´Ù.
+		SendMsg(msg, strLen);//SendMsgì— ë°›ì€ ë©”ì‹œì§€ë¥¼ ì „ë‹¬í•œë‹¤.
 	}
 
-	printf("»ç¿ëÀÚ°¡ Ã¤ÆÃÀ» ¶°³µ½À´Ï´Ù..,\n");
-	//ÀÌ ÁÙÀ» ½ÇÇàÇÑ´Ù´Â °ÍÀº ÇØ´ç Å¬¶óÀÌ¾ğÆ®°¡ ³ª°¬´Ù´Â »ç½ÇÀÓ µû¶ó¼­ ÇØ´ç Å¬¶óÀÌ¾ğÆ®¸¦ ¹è¿­¿¡¼­ Á¦°ÅÇØÁà¾ßÇÔ
-	WaitForSingleObject(hMutex, INFINITE);//¹ÂÅØ½º ½ÇÇà
-	for (i = 0; i<clientCount; i++) {//¹è¿­ÀÇ °¹¼ö¸¸Å­
-		if (clientSock == clientSocks[i]) {//¸¸¾à ÇöÀç clientSock°ªÀÌ ¹è¿­ÀÇ °ª°ú °°´Ù¸é
-			while (i++<clientCount - 1)//Å¬¶óÀÌ¾ğÆ® °³¼ö ¸¸Å­
-				clientSocks[i] = clientSocks[i + 1];//¾ÕÀ¸·Î ¶¯±ä´Ù.
+	printf("ì‚¬ìš©ìê°€ ì±„íŒ…ì„ ë– ë‚¬ìŠµë‹ˆë‹¤..,\n");
+	//ì´ ì¤„ì„ ì‹¤í–‰í•œë‹¤ëŠ” ê²ƒì€ í•´ë‹¹ í´ë¼ì´ì–¸íŠ¸ê°€ ë‚˜ê°”ë‹¤ëŠ” ì‚¬ì‹¤ì„ ë”°ë¼ì„œ í•´ë‹¹ í´ë¼ì´ì–¸íŠ¸ë¥¼ ë°°ì—´ì—ì„œ ì œê±°í•´ì¤˜ì•¼í•¨
+	WaitForSingleObject(hMutex, INFINITE);//ë®¤í…ìŠ¤ ì‹¤í–‰
+	for (i = 0; i<clientCount; i++) {//ë°°ì—´ì˜ ê°¯ìˆ˜ë§Œí¼
+		if (clientSock == clientSocks[i]) {//ë§Œì•½ í˜„ì¬ clientSockê°’ì´ ë°°ì—´ì˜ ê°’ê³¼ ê°™ë‹¤ë©´
+			while (i++<clientCount - 1)//í´ë¼ì´ì–¸íŠ¸ ê°œìˆ˜ ë§Œí¼
+				clientSocks[i] = clientSocks[i + 1];//ì•ìœ¼ë¡œ ë•¡ê¸´ë‹¤.
 			break;
 		}
 	}
-	clientCount--;//Å¬¶óÀÌ¾ğÆ® °³¼ö ÇÏ³ª °¨¼Ò
-	ReleaseMutex(hMutex);//¹ÂÅØ½º ÁßÁö
-	closesocket(clientSock);//¼ÒÄÏÀ» Á¾·áÇÑ´Ù.
+	clientCount--;//í´ë¼ì´ì–¸íŠ¸ ê°œìˆ˜ í•˜ë‚˜ ê°ì†Œ
+	ReleaseMutex(hMutex);//ë®¤í…ìŠ¤ ì¤‘ì§€
+	closesocket(clientSock);//ì†Œì¼“ì„ ì¢…ë£Œí•œë‹¤.
 	return 0;
 }
 
-void SendMsg(char* msg, int len) { //¸Ş½ÃÁö¸¦ ¸ğµç Å¬¶óÀÌ¾ğÆ®¿¡°Ô º¸³½´Ù.
+void SendMsg(char* msg, int len) { //ë©”ì‹œì§€ë¥¼ ëª¨ë“  í´ë¼ì´ì–¸íŠ¸ì—ê²Œ ë³´ë‚¸ë‹¤.
 	int i;
-	WaitForSingleObject(hMutex, INFINITE);//¹ÂÅØ½º ½ÇÇà
-	for (i = 0; i < clientCount; i++)//Å¬¶óÀÌ¾ğÆ® °³¼ö¸¸Å­
-		send(clientSocks[i], msg, len, 0);//Å¬¶óÀÌ¾ğÆ®µé¿¡°Ô ¸Ş½ÃÁö¸¦ Àü´ŞÇÑ´Ù.
-	ReleaseMutex(hMutex);//¹ÂÅØ½º ÁßÁö
+	WaitForSingleObject(hMutex, INFINITE);//ë®¤í…ìŠ¤ ì‹¤í–‰
+	for (i = 0; i < clientCount; i++)//í´ë¼ì´ì–¸íŠ¸ ê°œìˆ˜ë§Œí¼
+		send(clientSocks[i], msg, len, 0);//í´ë¼ì´ì–¸íŠ¸ë“¤ì—ê²Œ ë©”ì‹œì§€ë¥¼ ì „ë‹¬í•œë‹¤.
+	ReleaseMutex(hMutex);//ë®¤í…ìŠ¤ ì¤‘ì§€
 }
 void ErrorHandling(char* msg) {
 	fputs(msg, stderr);
